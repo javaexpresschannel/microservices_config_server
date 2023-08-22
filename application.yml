@@ -21,3 +21,7 @@ management:
   zipkin:
     tracing:
       endpoint: http://localhost:9411/api/v2/spans
+okta:
+  oauth2:
+    issuer: https://dev-73579990.okta.com/oauth2/default
+    audience: api://default
